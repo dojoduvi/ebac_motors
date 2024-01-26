@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer{
+    background-color: #192a56;
+    padding-top: 16px;
+    color: #FFF;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header > .container,
+footer > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav{
+    background-color: #575fcf;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu{
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu span{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex{
+    display: flex;    
+}
+
+#sobre img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section{
+    padding: 50px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.lista-veiculos{
+    flex-wrap: wrap;
+}
+
+.lista-veiculos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 25px;
+}
+
+.lista-veiculos li img{
+    max-width: 100%;
+}
+
+.lista-veiculos li h3{
+    margin: 16px 0;
+}
+
+.item-central{
+    margin: 0 5%;
+}
+
+.lista-veiculos li button,
+form button{
+    display: block;
+    width: 100%;
+    padding: 8px ;
+    border: none;
+    background-color: #119759;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.price{
+    margin: 15px 0;
+    display: block;
+}
+
+.price del{
+    color: #CCC;
+    font-size: 14px;
+}
+
+.form-campo{
+    margin-bottom: 16px;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea{
+    width: 100%;
+    display: block;
+    padding:  8px;
+}
+
+.form-campo textarea{
+    resize: none;
+}
+
+form{
+    max-width: 360px;
+}
+
+form button{
+    max-width: 120px;
+}
+
+#contatos h2{
+    margin-bottom: 15px;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer img{
+    height: 32px;
+}
